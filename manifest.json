@@ -1,0 +1,10 @@
+{
+    "display_name": "Post-Reply Image Inserter",
+    "loading_order": 10,
+    "js": "index.js",
+    "css": "style.css",
+    "author": "Grok Optimized",
+    "version": "2.0.0",
+    "homePage": "https://example.com",
+    "dependencies": []
+}
