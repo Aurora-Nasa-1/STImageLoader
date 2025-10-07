@@ -10,7 +10,7 @@
 const { getContext } = window.SillyTavern || {}; // 全局上下文
 if (!getContext) {
     console.error('SillyTavern context not found');
-    return;
+    throw new Error('SillyTavern context not found - Extension cannot load');
 }
 
 const context = getContext();
